@@ -62,7 +62,7 @@ If your target machine has no internet access, you need to download packages on 
 On an internet-connected machine, run:
 ```bash
 mkdir docker-offline && cd docker-offline
-apt download docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+apt download docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose
 ```
 This will download all required `.deb` packages.
 
